@@ -113,6 +113,22 @@ Hier die Liste aus der Umfrage:
 
 markiert wenn Reihenfolge stimmt
 
+![einfaches Beispiel](DD_Text_1_marked.png)
+
+ABER
+====
+
+- Was machen wir wenn subreihenfolgen übereinstimmen!?
+
+z.B. [Hamlet](https://en.wikipedia.org/wiki/To_be%2C_or_not_to_be)
+
+<!-- 
+data-randomize
+data-max-trials="2"
+data-solution-button="off" 
+-->
+@dragdroporder(@uid,To|be|or|not|to|that|is|the|question|be,To|be|or|not|to|be|that|is|the|question)
+
 ## Multiple Choice Drag and Drop
 
 
@@ -124,7 +140,10 @@ Challenges
 ==========
 
 - unklar ob und welche parameter beachtete werden.
+
     - `data-max-trials`wird nicht beachtet!
+    - 
+
 - beim D&D resizen die boxen dynamisch, das ist etwas annoying
 - doppelklick zum moven?
 - Bildvariante ist auch sehr buggy!
