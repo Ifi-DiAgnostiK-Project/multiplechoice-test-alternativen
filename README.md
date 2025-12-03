@@ -114,7 +114,7 @@ markiert wenn Reihenfolge stimmt
 ![einfaches Beispiel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/multiplechoice-test-alternativen/main/img/DD_Text_1_marked.png)
 
 ABER
-====
+=======
 
 - Was machen wir wenn subreihenfolgen übereinstimmen!?
 
@@ -134,6 +134,10 @@ data-solution-button="off"
 ![to be or not to be example](img/big_example.png)<!--style="max-width:350px;"-->
 </div>
 </section>
+
+- hier haben wir 2 *richtige* Segmente "To be or not to" und "that is the question". Es muss nur noch "be" gesetzt werden.
+- Die Darstellung mit richtige Reihenfolge markieren suggeriert aber das beide Segmente ein Segment sind. Das ist irreführend!
+- Alternativ könnte man nur das größte Segment markieren, läuft dort aber ebenso in Probleme. Da nicht markierte Segmente ja auch richtig sein können.
 
 ## Multiple Choice Drag and Drop
 
