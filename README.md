@@ -113,7 +113,7 @@ Hier die Liste aus der Umfrage:
 
 markiert wenn Reihenfolge stimmt
 
-![einfaches Beispiel](DD_Text_1_marked.png)
+![einfaches Beispiel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/multiplechoice-test-alternativen/main/img/DD_Text_1_marked.png)
 
 ABER
 ====
@@ -122,12 +122,20 @@ ABER
 
 z.B. [Hamlet](https://en.wikipedia.org/wiki/To_be%2C_or_not_to_be)
 
+<section class="flex-container border">
+<div class="flex-child">
 <!-- 
 data-randomize
 data-max-trials="2"
 data-solution-button="off" 
 -->
 @dragdroporder(@uid,To|be|or|not|to|that|is|the|question|be,To|be|or|not|to|be|that|is|the|question)
+
+</div>
+<div class="flex-child">
+![to be or not to be example](img/big_example.png)<!--style="max-width:350px;"-->
+</div>
+</section>
 
 ## Multiple Choice Drag and Drop
 
@@ -194,14 +202,14 @@ Hier die Liste aus der Umfrage:
 
 Analog zu MCQ. gibt an wieviele choices gefordert sind.
 
-![Version 1](DD_MPQ_1.png)
+![Version 1](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/multiplechoice-test-alternativen/main/img/DD_MPQ_1.png)
 
 
 ### Vorschlag 2 "Markiert Richtige"
 
 Analog zu MCQ. Nicht nur Angabe wieviele Richtig sind, sondern auch welche richtige Picks sind.
 
-![Version 2](DD_MPQ_2.png)
+![Version 2](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/multiplechoice-test-alternativen/main/img/DD_MPQ_2.png)
 
 ## FAQ
 
