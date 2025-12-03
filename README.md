@@ -12,9 +12,7 @@ comment: UI mocks and design questions for DiAgnostiK LiaScript Courses
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
-
-
-
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 
 -->
 
@@ -123,7 +121,7 @@ ABER
 z.B. [Hamlet](https://en.wikipedia.org/wiki/To_be%2C_or_not_to_be)
 
 <section class="flex-container border">
-<div class="flex-child">
+<div class="flex-child" style="width:300px;">
 <!-- 
 data-randomize
 data-max-trials="2"
