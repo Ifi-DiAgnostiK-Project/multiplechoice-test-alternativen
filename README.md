@@ -131,7 +131,7 @@ data-solution-button="off"
 
 </div>
 <div class="flex-child">
-![to be or not to be example](img/big_example.png)<!--style="max-width:350px;"-->
+![to be or not to be example](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/multiplechoice-test-alternativen/main/img/big_example.png)<!--style="max-width:350px;"-->
 </div>
 </section>
 
@@ -212,6 +212,37 @@ Analog zu MCQ. gibt an wieviele choices gefordert sind.
 Analog zu MCQ. Nicht nur Angabe wieviele Richtig sind, sondern auch welche richtige Picks sind.
 
 ![Version 2](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/multiplechoice-test-alternativen/main/img/DD_MPQ_2.png)
+
+## Drag and Drop Alternativen
+
+- wir können die LiaScript selection Komponente nutzen um ein Drag and Drop durchzuführen
+- das kann mit `->` in der Komponenten gemacht werden
+- `[->[eins | zwei | (drei) ]]`
+
+[->[eins | zwei | (drei) ]]
+
+- das geht auch im Text!
+- `dieser [->[Pferd | (Text)]] nutzt [->[Drops | (Drag)]] and [->[Trüffel | (Drop)]] Komponenten.`
+- dieser [->[Pferd | (Text)]] nutzt [->[Drops | (Drag)]] and [->[Trüffel | (Drop)]] Komponenten.
+
+### D&D mit Texten Alternative
+
+`[->[eins | (zwei)]] [->[drei | (vier)]] [->[fünf | (sechs)]]`
+
+Wählen Sie alle geraden Zahlen:
+
+[->[eins | (zwei)]] [->[drei | (vier)]] [->[fünf | (sechs)]]
+
+- Sortierung ist hierbei Wichtig!
+- `[->[(Äpfel)]] [->[(Birnen)]] [->[(Bananen)]]`
+
+[->[(Äpfel)]] [->[(Birnen)]] [->[(Bananen)]]
+
+- gleiche Werte werden nicht gefiltert
+- Die erste `5` ist die Lösung die zweite **Nicht**
+- `[->[(3)|2]] + [->[(2)|3]] = [->[(5)|5]]`
+
+> [->[(3)|2]] + [->[(2)|3]] = [->[(5)|5]]
 
 ## FAQ
 
